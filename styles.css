@@ -1,0 +1,59 @@
+* {
+    transition: 300ms;
+}
+body {
+    background-color: hsla(120, 4%, 20%, 1)
+}
+.toy {
+    margin: 35px auto 35px auto;
+    padding-top: 10px;
+    width: 1000px;
+    height: 500px;
+    background-color: hsla(0, 60%, 30%, 1);
+    border-radius: 40px;
+    border: 2px hsla(0, 60%, 10%, 1) solid;
+
+}
+h1 {
+    color: hsla(120, 4%, 10%, 1);
+    text-align: center;
+    margin: 0;
+}
+.grid {
+    margin: 10px auto 15px auto;
+    border: 2px hsla(0, 60%, 10%, 1) solid;
+    border-radius: 10px;
+    background-color: hsla(120, 4%, 70%, 1);
+    width: 800px;
+    height: 350px;
+}
+.knobs {
+    width: 85%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.knob {
+    background: hsla(120, 4%, 80%, 1);
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    border: 2px hsla(0, 60%, 20%, 1) dotted;
+}
+button {
+    background-color: hsla(120, 4%, 70%, 1);
+    margin: 0 270px 0 300px;
+    padding: 10px 4px;
+    border-radius: 15px;
+    border: 2px hsla(240, 40%, 15%, 1) solid ;
+    background-color: hsla(240, 15%, 70%, 1);
+    color: hsla(120, 4%, 20%, 1);
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsla(240, 40%, 15%, 1);
+}
+button:active {
+    background-color: hsla(0, 30%, 50%, 1);
+}
